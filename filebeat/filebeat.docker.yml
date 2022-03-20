@@ -1,0 +1,12 @@
+filebeat.inputs:
+- type: container
+  paths:
+   - '/var/lib/docker/containers/*/*.log'
+
+  processors:
+  - add_docker_metadata: ~
+
+output.elasticsearch:
+  hosts: ["https://testelk.es.us-central1.gcp.cloud.es.io:9243"]
+  username: "elastic"
+  password: "lZgjAPYnA3PJhz0bKZDY2gkJ"
