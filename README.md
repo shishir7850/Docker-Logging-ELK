@@ -1,6 +1,6 @@
 # Docker Logging with Filebeat and ELK
 
-This example belongs to [this](https://medium.com/p/6abc21a0a8f4/edit) article..
+This example belongs to [this](https://medium.com/p/6abc21a0a8f4/edit) article.
 
 ## Usage
 
