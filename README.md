@@ -1,8 +1,8 @@
-# docker logging to elasticsearch using filebeat
+# Docker Logging with Filebeat and ELK
 
-This example belongs to [this](https://blog.hendricksen.dev/2020/09/29/docker-logging-using-filebeat/) article from my blog.
+This example belongs to [this](https://medium.com/p/6abc21a0a8f4/edit) article..
 
 ## Usage
 
-1. Run it by executing `docker-compose up -d`
-1. After a while, log output from the elasticsearch and kibana containers will end up in elasticsearch with the help of filebeat, after which you can view the output using [kibana](http://localhost:5601).
+1. Run it by executing `docker-compose up --build`
+1. After a while, log output from the elasticsearch and kibana containers will end up in elasticsearch with the help of filebeat, after which you can view the output using kibana.
